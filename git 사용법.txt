@@ -1,0 +1,51 @@
+GIT CLI 버전관리
+작성하다가 ctrl+c : 작성하던거 취소
+;로 구분해서 여러 커맨드 한번에 실행 가능
+&&로 구분하면 실행성공 해야 다음으로 넘어감
+화살표로 이전 코드 고르기 가능
+========폴더===========
+pwd : 현재위치 print
+ls : 하위 폴더 리스트 print
+     -a : all
+     -l : long format
+     -R : 폴더 안 파일까지 출력
+cd : change directory
+      cd / : 최상위 폴더로 - 절대경로
+      cd ../ or .. : 부모 폴더로 - 상대경로
+--help : 매뉴얼 확인
+mkdir : 폴더 만들기
+./ : 현재 폴더
+/ : 최상위 폴더
+. : 히든(감춰진) 파일 
+<파일 앞에 . 붙으면 감춰진 파일임>
+mv : move(rename)
+    - mv dummy dummy2 -> dummy를 dummy2로
+    - 다른 폴더로 옮기기도 가능
+rm -r ... : 폴더 지우기
+========파일============
+touch : 내용이 없는 파일 만들기
+nano : txt 파일 만들기
+cat : txt 내용 출력
+rm : 파일 지우기
+
+git init : Initialize repoository
+.git : git repository
+git status : working tree status
+git add : add to staging area
+git commit : create version
+--amend 는 commit 메세지 바꿀 수 있음
+i : 입력모드로 전환
+:wq 저장&나가기
+git log : show version
+git log file lists
+git log --stat
+git diff : show changes
+
+파일 업로드
+git status
+git add . (모든 파일)
+git commit
+git push
+
+파일 가져오기
+git push
