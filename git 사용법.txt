@@ -48,4 +48,4 @@ git commit
 git push
 
 파일 가져오기
-git push
+git pull
