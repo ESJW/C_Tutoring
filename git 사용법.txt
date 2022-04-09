@@ -41,6 +41,8 @@ git log file lists
 git log --stat
 git diff : show changes
 
+
+git clone 깃 링크 : git 연결
 파일 업로드
 git status
 git add . (모든 파일)
